@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Session Exporter",
+  "version": "1.0",
+  "description": "Extract session info from WhatsApp Web",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "host_permissions": ["https://web.whatsapp.com/"]
+}
